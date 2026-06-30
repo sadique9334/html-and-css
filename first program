@@ -1,1 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadique Anwar</title>
+    <style>
+        h1 {color: red;}
+        h2 {color:blue;}
+        p {font-size: 20px;
+            padding: 10px;
+            margin: 15px;
+            border: 2px solid black;}
+    
+        .highlight {
+        color: red;
+        background-color : pink;
+    }
+    
+    #main-title {
+        color: purple;
+        text-align: center;
+
+    }
+    .projects {
+        display: flex;
+        gap: 20px
+    }
+    .card{
+        background-color: pink;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+    </style>
+</head>
+<body>
+    <h2>Mere Projects</h2>
+<div class="projects">
+    <div class="card">smart resume analyser</div>
+    <div class="card">Shopping Website</div>
+    <div class="card">DSA Practice</div>
+</div>
+    
+    <h1 id="main-title">Sadique Anwar</h1>
+
+    <h2>Mere Baare Mein</h2>
+    <p>My name is Sadique. Currently I am pursuing B.Tech CSE at Maulana Azad National Urdu University.</p>
+
+    <h2>Meri Hobbies</h2>
+    
+
+    <p>My hobbies are playing video games, coding, and making cool stuff.</p>
+<h2 class="highlight" >mera github</h2>
+<a href="https://github.com/sadique9334" target="_blank" >visit github</a>
+<h2 class="highlight">mera photo</h2>
+<img src="https://cdn.pixabay.com/photo/2023/02/07/17/49/supercar-7774683_1280.jpg" width="300" alt="meri photo">
+<h2>meri skills</h2>
+<ul>
+    <li>java</li>
+    <li>html</li>
+    <li>python</li>
+    <li>c language</li>
+    <li>c++</li>
+</ul>
+<h2>mera goal</h2>
+<ol>
+    <li>practicing DSA</li>
+    <li>practicing web development</li>
+    <li>making projects</li>
+</ol>
+    <table border="4">
+    <thead>
+        <tr>
+        <th>Language</th>
+        <th>Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>c++</td>
+        <td>intermediate</td>
+        </tr>
+        <tr>
+        <td>python</td>
+        <td>advanced</td>
+        </tr>
+
+    </tbody>
+</table>
+
+
+
+</body>
+</html>
